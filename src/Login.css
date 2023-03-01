@@ -1,0 +1,58 @@
+.sign-box {
+    width: 60%;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    background-color: blanchedalmond;
+    box-shadow: 0.8rem 3rem;
+    padding: 30px;
+  }
+  .forms form .flex input {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+  }
+  .forms p {
+    font-size: 15px;
+  }
+  .forms form label {
+    margin: 8px;
+  }
+  .forms form button {
+    text-align: center;
+    width: 50%;
+    margin: 20px 0;
+  }
+  .forms form a {
+    color: black;
+    font-size: 13px;
+  }
+
+  .primary-btn{
+    width:10px;
+    align-items: center;
+  }
+  
+  /*----------show-data---------*/
+  .show-data h1 {
+    color: #31b675;
+    margin: 0 0 20px 0;
+  }
+  .show-data h3 {
+    display: flex;
+  }
+  .show-data h3 p {
+    font-weight: 400;
+    margin-left: 5px;
+  }
+  .show-data .sign-box {
+    margin-top: 100px;
+  }
+  /*----------show-data---------*/
+  @media screen and (max-width: 768px) {
+    .sign-box {
+      width: 80%;
+    }
+  }

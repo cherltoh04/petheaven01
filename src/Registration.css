@@ -1,0 +1,35 @@
+ /* Form container */
+ .sectionR {
+  width: 60%;
+    align-items: center;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: auto;
+    background-color: blanchedalmond;
+    box-shadow: 0.8rem 3rem;
+    padding: 30px;
+  }
+  
+  /* Form labels */
+  .topmessage {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #3e8e41;
+  }
